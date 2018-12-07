@@ -8,6 +8,9 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+	<!-- Iconos Fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
 
 	<title>Curriculum</title>
 	<!--<link rel="stylesheet" type="text/css" href="style.css">-->
@@ -16,22 +19,22 @@
 <body>
 
 	<section class="container d-flex bg-info text-white">
-		<aside class="container">
-			<img class="img-fluid" src="images/yop.png" alt="foto">
+		<aside class="container text-center">
+			<img class="mt-4 img-fluid rounded-circle" src="images/yop.png" alt="foto">
 		
 			<h2>Juan Antonio Álvarez Fernández</h2>
-			<h3>Programador Informático</h3>
+			<h3 class="mt-5">Programador Informático</h3>
 			<br>
 
-			<p>Mi nombre es Juan Antonio y tengo 23 años. Apasionado por las tecnologías y dedicado a ello desde muy pequeña edad. He trabajado como técnico de sistemas y seguridad durante unos años y he continuado formandome para poder dedicarme al desarrollo y la programación. Durante mis años laborales he aprendido y reforzado las capacidades del trabajo en equipo y dedicación.</p>
+			<p class="lead">Mi nombre es Juan Antonio y tengo 23 años. Apasionado por las tecnologías y dedicado a ello desde muy pequeña edad. He trabajado como técnico de sistemas y seguridad durante unos años y he continuado formandome para poder dedicarme al desarrollo y la programación. Durante mis años laborales he aprendido y reforzado las capacidades del trabajo en equipo y dedicación.</p>
 			<br>
 
 			<p><strong>juanan18.15@gmail.com</strong></p>
 			<p><strong>635050451</strong></p>
 			<br>
 
-			<a href="https://es.linkedin.com/in/juan-antonio-alvarez-fernandez-356b28102" target="_blank"><i class="fab fa-linkedin"></i></a>
-			<a href="https://github.com/Juaniyo46" target="_blank"><i class="fab fa-github"></i></a>
+			<a href="https://es.linkedin.com/in/juan-antonio-alvarez-fernandez-356b28102" target="_blank"><i style="font-size: 3rem;" class="fab fa-linkedin pr-4 mb-4"></i></a>
+			<a href="https://github.com/Juaniyo46" target="_blank"><i style="font-size: 3rem;" class="fab fa-github"></i></a>
 			<br>
 
 			<div class="container d-flex justify-content-around">
@@ -99,7 +102,41 @@
 					<h3>Photoshop</h3>
 					<p>Básico</p>
 				</div>
+
+				<div>
+					<h3>Bootstrap</h3>
+					<p>Junior</p>
+				</div>
 			</div>	
+
+			<form class="mb-4 mt-4">
+				<div class="form-group">
+					<label>Nombre</label>
+					<input class="form-control" type="text" name="nombre" placeholder="Introduzca su nombre" >					
+				</div>
+
+				<div>
+					<label>Apellidos</label>
+					<input class="form-control" type="text" name="apellidos" placeholder="Introduzca sus apellidos">
+				</div>
+
+				<div>
+					<label>Teléfono</label>
+					<input class="form-control" type="tel" name="Teléfono" placeholder="Introuzca su número de teléfono">
+				</div>
+
+				<div>
+					<label>e-mail</label>
+					<input class="form-control" type="e-mail" name="coreo" placeholder="Introduzca su correo electrónico">
+				</div>
+
+				<div>
+					<label>Consulta</label>
+					<textarea class="form-control" rows= "3" type="text" name="consulta" placeholder="Desarrolle aquí su consulta"></textarea>
+				</div>
+
+				<button class="btn btn-primary btn-lg btn-block mt-2">Enviar</button>
+			</form>
 
 
 
@@ -111,7 +148,7 @@
 
 
 
-		<section class="container">
+		<section class="container mt-4">
 			<div>
 		
 				<h2><strong>Experiencia</strong></h2>
